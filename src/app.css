@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'Concertica';
+	src: url('./assets/fonts/sk-concretica-trial.ttf');
+}
+
+#content a {
+	color: #de0301;
+}
+#content h1 {
+	font-size: x-large;
+}
+#content ul {
+	margin-left: 25px;
+}
+#content li {
+	list-style: georgian;
+}
