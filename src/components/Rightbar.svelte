@@ -21,7 +21,7 @@
 						loading="lazy"
 					/>
 					<div class="flex-1">
-						<div class="flex items-center mb-1">
+						<div class="flex items-center mb-0">
 							<a
 								href="/"
 								class="group relative inline-block overflow-hidden rounded border-gray-100 bg-gray-200 text-sm font-medium text-slate-800 hover:text-violet-600 focus:outline-none active:bg-indigo-600 active:text-white"
@@ -30,6 +30,9 @@
 									class="ease absolute bottom-0 left-0 h-0 w-0 border-b-2 border-primary transition-all duration-300 group-hover:w-full xl:inline-flex hidden xl:visible"
 								/>
 							</a>
+						</div>
+						<div id="content">
+							<p class="mx-2">Administrateur ApyNext</p>
 						</div>
 					</div>
 				</div>
@@ -47,11 +50,14 @@
 							<a
 								href="/"
 								class="group relative inline-block overflow-hidden rounded border-gray-100 bg-gray-200 text-sm font-medium text-slate-800 hover:text-violet-600 focus:outline-none active:bg-indigo-600 active:text-white"
-								><h2 class="text-lg font-bold mr-2 duration-100 hover:border-b-2">Maël</h2>
+								><h2 class="text-lg font-bold mr-2 duration-100 hover:border-b-2">Ricardo</h2>
 								<span
 									class="ease absolute bottom-0 left-0 h-0 w-0 border-b-2 border-primary transition-all duration-300 group-hover:w-full xl:inline-flex hidden xl:visible"
 								/>
 							</a>
+						</div>
+						<div id="content">
+							<p class="mx-2">Administrateur ApyNext</p>
 						</div>
 					</div>
 				</div>
@@ -69,11 +75,14 @@
 							<a
 								href="/"
 								class="group relative inline-block overflow-hidden rounded border-gray-100 bg-gray-200 text-sm font-medium text-slate-800 hover:text-violet-600 focus:outline-none active:bg-indigo-600 active:text-white"
-								><h2 class="text-lg font-bold mr-2 duration-100 hover:border-b-2">Maël</h2>
+								><h2 class="text-lg font-bold mr-2 duration-100 hover:border-b-2">Micorksen</h2>
 								<span
 									class="ease absolute bottom-0 left-0 h-0 w-0 border-b-2 border-primary transition-all duration-300 group-hover:w-full xl:inline-flex hidden xl:visible"
 								/>
 							</a>
+						</div>
+						<div id="content">
+							<p class="mx-2">Bouffon d'ApyNext</p>
 						</div>
 					</div>
 				</div>

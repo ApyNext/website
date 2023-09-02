@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import IconHome from '../assets/icons/icon-home.svg';
 	import IconExplore from '../assets/icons/icon-explore.png';
 	import IconSearch from '../assets/icons/icon-search.svg';
@@ -6,7 +6,22 @@
 	import IconSend from '../assets/icons/icon-send.png';
 	import IconMessages from '../assets/icons/icon-message.png';
 	import Logo from '../assets/img/apynext.png';
+
+	import Modal from './SendMessage.svelte';
+
+	let showModal = false;
 </script>
+
+<Modal bind:showModal>
+	<h2 class="text-white text-center text-3xl" slot="header">Créer un Post</h2>
+
+	<input
+		type="text"
+		class=" border-hidden rounded-3xl w-full p-2 bg-transparent placeholder-white text-white-100 active:border-hidden"
+		placeholder="Hello, my day was..."
+		id="create-post"
+	/>
+</Modal>
 
 <div class="h-screen w-20">
 	<div class="fixed mx-0 border-r-2 h-screen w-24 xl:w-auto">
@@ -103,9 +118,10 @@
 		{' '}
 		<div class="flex w-full">
 			<button
+				on:click={() => (showModal = true)}
 				class="my-4 p-1 px-2 mx-4 xl:p-3 xl:px-8 w-full rounded-3xl xl:w-full bg-bg hover:bg-bg-100 duration-300 text-black text-sm xl:text-3xl border-primary font-concretica font-bold"
 			>
-				<p class="xl:inline-flex rounded items-center hidden xl:visible">Send</p>
+				<p class="xl:inline-flex rounded items-center hidden xl:visible text-yellow">Send</p>
 				<img
 					src={IconSend}
 					class="mx-auto p-1 inline-flex rounded items-center visibile xl:hidden h-6 sm:h-7 md:h-8 xl:h-10"
