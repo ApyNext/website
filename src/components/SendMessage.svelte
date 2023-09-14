@@ -11,7 +11,7 @@
 <!-- svelte-ignore a11y-click-events-have-key-events a11y-no-noninteractive-element-interactions -->
 <div class="flex justify-center mx-0">
 	<dialog
-		class="z-20 bg-gradient-to-r from-gray via-gray-100 to-gray rounded-2xl w-2/3 h-64 m-10 mx-auto"
+		class="z-20 bg-gray rounded-2xl w-2/3 h-64 m-10 mx-auto"
 		bind:this={dialog}
 		on:close={() => (showModal = false)}
 	>

@@ -3,8 +3,8 @@
 	let password = '';
 
 	function handleSubmit() {
-		// Vous pouvez ajouter ici la logique de gestion de la connexion
-		alert(`Email: ${email}\nPassword: ${password}`);
+		document.cookie = `myCookie=hello`;
+		location.reload();
 	}
 
 	import Logo from '../assets/img/apynext.png';

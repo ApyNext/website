@@ -17,7 +17,7 @@
 
 	<input
 		type="text"
-		class=" border-hidden rounded-3xl w-full p-2 bg-transparent placeholder-white text-white-100 active:border-hidden"
+		class="border-white border rounded-3xl w-full p-4 bg-transparent placeholder-gray-100 text-white-100 focus:border-white-100"
 		placeholder="Hello, my day was..."
 		id="create-post"
 	/>

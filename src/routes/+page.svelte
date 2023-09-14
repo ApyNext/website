@@ -4,7 +4,7 @@
 	import Rightbar from '../components/Rightbar.svelte';
 	import Login from '../components/Login.svelte';
 
-	let cookieName = 'monCookie';
+	let cookieName = 'myCookie';
 	let isCookieStored: boolean;
 
 	import { onMount } from 'svelte';

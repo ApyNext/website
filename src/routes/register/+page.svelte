@@ -66,7 +66,12 @@
 					/>
 				</div>
 				<div class="flex items-center justify-between">
-					<a href="/" class="text-blue-500 hover:underline">Déjà inscrit ?</a>
+					<a href="/" class="group relative inline-block overflow-hidden"
+						>Déjà inscrit ?
+						<span
+							class="ease absolute bottom-0 left-0 h-0 w-0 border-b-2 border-primary transition-all duration-300 group-hover:w-full xl:inline-flex hidden xl:visible"
+						/></a
+					>
 					<button
 						type="submit"
 						class="bg-bg text-white py-2 mx-3 px-4 rounded hover:bg-bg-100 transition duration-300"
