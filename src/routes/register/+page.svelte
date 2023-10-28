@@ -56,10 +56,10 @@
 					/>
 				</div>
 				<div class="mb-6">
-					<label for="password" class="block text-gray">Date de naissance</label>
+					<label for="birthdate" class="block text-gray">Date de naissance</label>
 					<input
 						type="date"
-						id="password"
+						id="birthdate"
 						class="w-full p-2 border border-gray-100 rounded focus:outline-none focus:border-blue-500 transition duration-300"
 						bind:value={date}
 						required
